@@ -133,8 +133,7 @@ if(week!==null && week.length>0){
         } else {
             biggerNumber = numbersList[0]
         }
-        let week
-        console.log(week);
+        let week = '';
         switch (+biggerNumber) {
             case 1:
                 console.log('study english');
