@@ -1,6 +1,16 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 let masiv = [10, 15, 26, 40, 'Andjey', 'duda', 'polish', 'russiakaput', 60, 2023];
 console.log(masiv);
+console.log(10,[0]);
+console.log([1]);
+console.log([2]);
+console.log([3]);
+console.log([4]);
+console.log([5]);
+console.log([6]);
+console.log([7]);
+console.log([8]);
+console.log([9]);
 
 
 
