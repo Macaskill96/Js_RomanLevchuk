@@ -325,8 +325,8 @@ let cards = [{
 // let diamondAll = cards.filter(c => c.cardSuit === 'diamond')
 // console.log(diamondAll);
 
-// let trefsNinePlus = cards.filter(c => c.value >= '9' && c.cardSuit ==='clubs')
-// console.log(trefsNinePlus);
+// let trefsNinePlus = cards.filter(c => (c.value > '8' || c.value === '10') && c.cardSuit === 'clubs'  )
+// console.log(trefsNinePlus)
 
 
 //     Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
