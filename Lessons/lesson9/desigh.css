@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+.divGen {
+    width: 900px;
+    height: 500px;
+    border:
+    10px
+    solid
+    red;
+}
+
+.task3 {
+    width: 900px;
+    height: 500px;
+    border: 5px solid blue;
+}
+.task3plus {
+    width: 90%;
+    height: 50px;
+    border: 3px solid cornflowerblue;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+.first {
+    width: 900px;
+    height: 600px;
+    border: 5px solid blue;
+}
+
+.item {
+    width: 95%;
+    border: 3px solid blue;
+    margin: 10px;
+}
+.heading {
+    font-size: 25px;
+    margin-bottom: -15px;
+    margin-left: 12px;
+}
+.description {
+    margin-left: 12px;
+}
+
+.sim {
+    width: 1000px;
+    height: 800px;
+}
+
+.photo {
+    width: 200px;
+    height: 300px;
+}
+
+.names {
+    margin-top: 40px;
+}
+.names, .ages, .pishka {
+    margin-left: 10px;
+}
+
+
+.divTitle {
+    border: 3px solid blue;
+    width: 98%;
+    height: 75px;
+    margin: 10px;
+}
+.divMonth {
+    display: inline-block;
+    border: 3px solid blue;
+    margin: 10px;
+    width: 250px;
+}
+.divHour {
+    display: inline-block;
+    border: 3px solid blue;
+    margin: 15px;
+    width: 79%;
+}
+.module2 {
+    border: 3px solid blue;
+    margin: 10px;
+    width: 98%;
+}
+.osnovna {
+    border: 5px solid red;
+    margin: 10px;
+}
+.textClass {
+    margin-left: 10px;
+
+}

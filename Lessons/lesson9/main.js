@@ -9,10 +9,11 @@
 // div1.style.background = 'silver';
 // div1.style.textDecoration = 'red';
 // div1.style.fontSize = '15px';
+// div1.style.width = '100%';
+// div1.style.height = '100px';
 // document.body.append(div1);
 //
 // let div1_Clone = div1.cloneNode(true);
-// console.log(div1_Clone);
 // document.body.append(div1_Clone);
 
 
@@ -24,14 +25,21 @@
 //     ['Main','Products','About us','Contacts']
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
 //
-
+//
 // let arr = ['Main', 'Products', 'About us', 'Contacts'];
+// let divGeneral = document.createElement('div')
+// let divList = document.createElement('div')
 // let arrUl = document.createElement('ul');
-// document.body.appendChild(arrUl);
+// document.body.appendChild(divGeneral);
+// divGeneral.classList.add('divGen');
+// divList.classList.add('divLists')
 // for (let arrEl of arr) {
 //     let listLi = document.createElement('li')
 //     listLi.innerText = `${arrEl}`
-//     arrUl.append(listLi);
+//     arrUl.append(divList);
+//     divGeneral.append(arrUl);
+//     divList.append(listLi)
+//
 // }
 
 
@@ -42,6 +50,9 @@
 
 
 // - Є масив
+// Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
+// Завдання робити через цикли.
+
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
 //     {title: 'Java Complex', monthDuration: 6},
@@ -50,36 +61,19 @@
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
-// Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
-// Завдання робити через цикли.
-
-// first Variant
+//
+//
+// let divPlusElement = document.createElement('div');
+// divPlusElement.classList.add('task3');
 // for (let arrElements of coursesAndDurationArray) {
-//     let divs = document.createElement('div')
 //
-//     let month = arrElements.monthDuration;
-//
-//     let title = arrElements.title;
-//     divs.append(title, month);
-//     document.body.append(divs);
-//     console.log(divs);
-
-// }
-
-
-
-// Second Variant
-// for (let arrElements of coursesAndDurationArray) {
-//     let divs = document.createElement('div')
-//     if (arrElements.title !== null) {
-//         let title = arrElements.title;
-//         divs.append(title);
-//
-//     }  if (arrElements.monthDuration !== 0) {
-//         let month = arrElements.monthDuration;
-//         divs.append(month);
-//     }
-//     document.body.append(divs);
+//     let divElements = document.createElement('div');
+//     let text = document.createElement('h3');
+//     text.innerText = `title: ${arrElements.title}, monthDuraction: ${arrElements.monthDuration}`;
+//     divElements.classList.add('task3plus')
+//     divElements.append(text);
+//     divPlusElement.append(divElements);
+//     document.body.appendChild(divPlusElement);
 //
 // }
 
@@ -90,6 +84,10 @@
 // =========================
 //
 //     - Є масив
+// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
+//     Завдання робити через цикли.
+
+
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
 //     {title: 'Java Complex', monthDuration: 6},
@@ -98,21 +96,23 @@
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
-
-// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
-//     Завдання робити через цикли.
 //
+//
+// let div = document.createElement('div')
+// div.classList.add('first');
 // for (let arrayElement of coursesAndDurationArray) {
-//     let divs = document.createElement('div');
-//     divs.classList.add('item');
-//     let list_h1 = document.createElement('h1');
-//     list_h1.classList.add('heading');
-//     list_h1.append(arrayElement.title);
-//     let p_list = document.createElement('p');
-//     p_list.classList.add('description');
-//     p_list.append(arrayElement.monthDuration)
-//     divs.append(list_h1, p_list)
-//     console.log(divs);
+//     let item = document.createElement('div');
+//     item.classList.add('item');
+//     let h1 = document.createElement('h1');
+//     h1.classList.add('heading');
+//     h1.innerText = `${arrayElement.title}`;
+//     let p = document.createElement('p');
+//     p.classList.add('description');
+//     p.innerText = `monthDuraction: ${arrayElement.monthDuration}`;
+//     item.append(h1, p);
+//     div.appendChild(item);
+//     document.body.append(div);
+//
 // }
 
 
@@ -128,6 +128,8 @@
 // - є масив simpsons, котрий лежить в arrays.js (на цей момент ви вже знаєте де він знаходиться)
 // Проітерувати його, створиши для кожного об'єкту  масиву <div class='member'> та наповнити його данними з об'єкту.
 //     Якщо людською мовою: під кожного члена родини зробити блок та наповнити його інформацією з цього об'єкту
+
+//
 // let simpsons = [
 //     {
 //         name: 'Bart',
@@ -165,3 +167,155 @@
 //         photo: 'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png'
 //     },
 // ];
+//
+//
+// let sim = document.createElement('div');
+// sim.classList.add('sim');
+// for (let simpson of simpsons) {
+//     let member = document.createElement('div');
+//     member.classList.add('member')
+//     let h1 = document.createElement('h1');
+//     h1.classList.add('names');
+//     h1.innerText = `${simpson.name} ${simpson.surname}`;
+//     let img = document.createElement('img');
+//     img.src = `${simpson.photo}`;
+//     img.classList.add('photo')
+//     let age = document.createElement('h4');
+//     age.classList.add('ages');
+//     age.innerText = `Age: ${simpson.age}`;
+//     let p = document.createElement('p')
+//     p.classList.add('pishka');
+//     p.innerText = `${simpson.info}`
+//     member.append(h1, img, age, p);
+//     sim.append(member);
+//     document.body.append(sim)
+//
+// }
+
+
+
+
+// Цикл в циклі
+// - Є масив coursesArray котрий лежить в arrays.js (на цей момент ви вже знаєте де він знаходиться)
+//
+// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
+// Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
+
+
+// let coursesArray = [
+//     {
+//         title: 'JavaScript Complex',
+//         monthDuration: 5,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+//     },
+//     {
+//         title: 'Java Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'java core',
+//             'java advanced']
+//     },
+//     {
+//         title: 'Python Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'python core',
+//             'python advanced']
+//     },
+//     {
+//         title: 'QA Complex',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+//     },
+//     {
+//         title: 'FullStack',
+//         monthDuration: 7,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'react',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'node.js',
+//             'python',
+//             'java']
+//     },
+//     {
+//         title: 'Frontend',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+//     }
+// ];
+//
+//
+// let div = document.createElement('div')
+// div.classList.add('osnovna');
+// for (let coursesArrayElement of coursesArray) {
+//     let divTitle = document.createElement('div');
+//     let title1 = document.createElement('h1');
+//     divTitle.append(title1);
+//     divTitle.classList.add('divTitle');
+//     title1.innerText = `${coursesArrayElement.title}`;
+//     title1.classList.add('textClass');
+//
+//
+//     let divMonth = document.createElement('div');
+//     let divMonth1 = document.createElement('h2')
+//     divMonth.append(divMonth1);
+//     divMonth.classList.add('divMonth');
+//     divMonth1.innerText = `MonthDuraction: ${coursesArrayElement.monthDuration}`;
+//     divMonth1.classList.add('textClass');
+//
+//
+//     let divHour = document.createElement('div');
+//     let divHour1 = document.createElement('h2');
+//     divHour.append(divHour1);
+//     divHour.classList.add('divHour');
+//     divHour1.innerText = `HourDuraction: ${coursesArrayElement.hourDuration}`;
+//     divHour1.classList.add('textClass');
+//
+//
+//     let module = document.createElement('div');
+//     let  module11 = document.createElement('h2');
+//     module.append(module11);
+//     module11.innerText = `Modules:`;
+//     module11.classList.add('textClass');
+//     let ulModule = document.createElement('ul');
+//     module.append(ulModule);
+//     module.classList.add('module2');
+//     let modules = coursesArrayElement.modules;
+//     for (let module1 of modules) {
+//         let item = document.createElement('li');
+//         item.innerText = `${module1}`;
+//         ulModule.appendChild(item);
+//     div.append(divTitle, divMonth, divHour, module);
+//     document.body.append(div);
+//
+//     }
+//
+// }
