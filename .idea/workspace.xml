@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c771a31e-66a1-426c-b54c-f3ef25860c3c" name="Changes" comment="Mini project - Roman Levchuk">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/mini-project-Roman-Levchuk/style-user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/mini-project-Roman-Levchuk/style-user-details.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d92a4a9e-3c0f-480d-94f5-ac81aaeb3403" />
+        <option name="url" value="https://github.com/Macaskill96/Js_RomanLevchuk.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2L6smfeCVTVDsFNQPlrhIohPIaU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c771a31e-66a1-426c-b54c-f3ef25860c3c" name="Changes" comment="" />
+      <created>1675203031375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675203031375</updated>
+      <workItem from="1675203032609" duration="59093000" />
+      <workItem from="1676069489877" duration="41365000" />
+      <workItem from="1676412836203" duration="9400000" />
+      <workItem from="1676581610937" duration="12142000" />
+      <workItem from="1676625453269" duration="26756000" />
+      <workItem from="1676809194634" duration="581000" />
+      <workItem from="1676885083340" duration="5372000" />
+      <workItem from="1676933899029" duration="606000" />
+      <workItem from="1677183689277" duration="48468000" />
+      <workItem from="1677704312112" duration="3096000" />
+      <workItem from="1677793949700" duration="9404000" />
+      <workItem from="1677877583778" duration="7731000" />
+      <workItem from="1678016154367" duration="38853000" />
+      <workItem from="1678399795899" duration="2767000" />
+      <workItem from="1678489753752" duration="12959000" />
+      <workItem from="1678719737652" duration="22614000" />
+      <workItem from="1678797284923" duration="17443000" />
+      <workItem from="1679088698020" duration="618000" />
+      <workItem from="1679093007202" duration="285000" />
+      <workItem from="1680118762696" duration="86000" />
+      <workItem from="1680622544957" duration="163000" />
+      <workItem from="1680622722225" duration="60000" />
+      <workItem from="1689328494859" duration="36000" />
+      <workItem from="1690215155311" duration="14725000" />
+      <workItem from="1690276659867" duration="13399000" />
+      <workItem from="1690295129742" duration="18617000" />
+    </task>
+    <task id="LOCAL-00001" summary="Виконав ДЗ урок 1">
+      <created>1675204854534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675204854534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Виконав ДЗ урок 2">
+      <created>1675460896558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675460896558</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Виконав ДЗ урок 2">
+      <created>1675463705286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675463705286</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Виконав ДЗ урок 2">
+      <created>1675818985485</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675818985485</updated>
+    </task>
+    <task id="LOCAL-00005" summary="додав до домашнього завдання додаткові виконання способом стрілочних функцій">
+      <created>1676507883846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676507883846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="вмконав дз 6 уроку.">
+      <created>1676761396008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676761396008</updated>
+    </task>
+    <task id="LOCAL-00007" summary="вмконав дз 6 уроку. + 1завдання">
+      <created>1676804801517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676804801517</updated>
+    </task>
+    <task id="LOCAL-00008" summary="вмконав дз 6 уроку. + 1завдання">
+      <created>1676892055565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676892055565</updated>
+    </task>
+    <task id="LOCAL-00009" summary="вмконав дз 8 уроку">
+      <created>1677620440878</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677620440878</updated>
+    </task>
+    <task id="LOCAL-00010" summary="вмконав дз 9 уроку (частково)">
+      <created>1677706839150</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677706839150</updated>
+    </task>
+    <task id="LOCAL-00011" summary="виконав дз 10 уроку">
+      <created>1678401958162</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678401958162</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Mini project - Roman Levchuk">
+      <created>1679088833484</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679088833484</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Виконав ДЗ урок 1" />
+    <MESSAGE value="Виконав ДЗ урок 2" />
+    <MESSAGE value="додав до домашнього завдання додаткові виконання способом стрілочних функцій" />
+    <MESSAGE value="вмконав дз 6 уроку." />
+    <MESSAGE value="вмконав дз 6 уроку. + 1завдання" />
+    <MESSAGE value="вмконав дз 8 уроку" />
+    <MESSAGE value="вмконав дз 9 уроку (частково)" />
+    <MESSAGE value="виконав дз 10 уроку" />
+    <MESSAGE value="Mini project - Roman Levchuk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mini project - Roman Levchuk" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Lessons/lesson6/main.js</url>
+          <line>240</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
