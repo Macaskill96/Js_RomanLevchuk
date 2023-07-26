@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c771a31e-66a1-426c-b54c-f3ef25860c3c" name="Changes" comment="Mini project - Roman Levchuk">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/task/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/task/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/task1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/task1/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/task1/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/mini-project-Roman-Levchuk/style-user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/mini-project-Roman-Levchuk/style-user-details.css" afterDir="false" />
+    <list default="true" id="c771a31e-66a1-426c-b54c-f3ef25860c3c" name="Changes" comment="task1 - commit1">
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/probnik.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/task1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/task1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/task1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/task1/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,11 @@
       <workItem from="1689328494859" duration="36000" />
       <workItem from="1690215155311" duration="14725000" />
       <workItem from="1690276659867" duration="13399000" />
-      <workItem from="1690295129742" duration="18617000" />
+      <workItem from="1690295129742" duration="18664000" />
+      <workItem from="1690359281055" duration="407000" />
+      <workItem from="1690359835129" duration="386000" />
+      <workItem from="1690360512108" duration="18794000" />
+      <workItem from="1690382822155" duration="14395000" />
     </task>
     <task id="LOCAL-00001" summary="Виконав ДЗ урок 1">
       <created>1675204854534</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679088833484</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="task1 - commit1">
+      <created>1690327489088</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690327489088</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +212,8 @@
     <MESSAGE value="вмконав дз 9 уроку (частково)" />
     <MESSAGE value="виконав дз 10 уроку" />
     <MESSAGE value="Mini project - Roman Levchuk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mini project - Roman Levchuk" />
+    <MESSAGE value="task1 - commit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1 - commit1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
