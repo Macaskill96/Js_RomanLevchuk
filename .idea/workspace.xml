@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c771a31e-66a1-426c-b54c-f3ef25860c3c" name="Changes" comment="task1 - commit2">
+    <list default="true" id="c771a31e-66a1-426c-b54c-f3ef25860c3c" name="Changes" comment="task1 - commit3">
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/Components/Archive/Archive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/Components/Archive/stylesArchive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/Components/Forms/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/Components/Forms/stylesForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/Components/Notes/Note.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/task1/Components/Notes/stylesNote.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons/task1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/task1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons/task1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/task1/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/task1/probnik.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons/task1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/task1/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -105,7 +110,8 @@
       <workItem from="1690359835129" duration="386000" />
       <workItem from="1690360512108" duration="18794000" />
       <workItem from="1690382822155" duration="14695000" />
-      <workItem from="1690456595415" duration="26123000" />
+      <workItem from="1690456595415" duration="29175000" />
+      <workItem from="1690551212186" duration="27259000" />
     </task>
     <task id="LOCAL-00001" summary="Виконав ДЗ урок 1">
       <created>1675204854534</created>
@@ -205,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690414835142</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="task1 - commit3">
+      <created>1690509140477</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690509140477</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +236,8 @@
     <MESSAGE value="Mini project - Roman Levchuk" />
     <MESSAGE value="task1 - commit1" />
     <MESSAGE value="task1 - commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1 - commit2" />
+    <MESSAGE value="task1 - commit3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1 - commit3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,8 +249,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Lessons/task1/main.js</url>
-          <line>69</line>
-          <properties lambdaOrdinal="-1" />
+          <line>78</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

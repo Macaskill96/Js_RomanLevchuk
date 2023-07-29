@@ -1,0 +1,67 @@
+.arcInfo {
+    display: flex;
+    width: 800px ;
+
+}
+
+.noteCategory {
+    width: 298px;
+    background: #a9acef;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+    padding-left: 5px;
+}
+.activeNote {
+    width: 200px;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+    background: #a9acef;
+}
+.archiveNote {
+    width: 300px;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+    background: #a9acef;
+}
+
+.headerCounter {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background: #545454;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.headerCounter:first-of-type {
+    width: 300px;
+}
+.headerCounter:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    width: 197px;
+}
+.headerCounter:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.noteCategory, .activeNote, .archiveNote {
+    height: 35px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+}
+.activeNote, .archiveNote {
+    justify-content: center;
+}
+
+.contTest {
+    display: flex;
+    flex-direction: column;
+}
+
+.test1, .test2 {
+    transition: height 0.5s ease;
+    margin-bottom: 10px;
+}

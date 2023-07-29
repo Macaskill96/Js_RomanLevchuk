@@ -1,4 +1,8 @@
 
+// == Це той ж самий код який є в Компонентах. Тут він не розділений. У файлі index не використовується
+
+
+
 
 let category = ['Task', 'Random Thought', 'Idea'];
 let notes = [
@@ -10,7 +14,8 @@ let notes = [
     {date: '28.06.2017', note: 'Cooking', category:'Idea'},
     {date: '28.06.2022', note: 'Wash a cat', category:'Random Thought'}
 ];
-
+let arrArchive = [];
+const test1 = document.querySelector('.test1');
 
 
 function formatDate () {
@@ -37,6 +42,9 @@ let select = category.map(c => {
 function CreateBlockNotes () {
     const notesContainer = document.getElementById('notesContainer');
     notesContainer.innerHTML = '';
+    Counter();
+
+
     let divNotes = notes.map((note, index) => {
         let container = document.createElement('div');
         container.classList.add('noteDiv');
@@ -55,6 +63,7 @@ function CreateBlockNotes () {
         deleteButton.classList.add('button');
         deleteButton.innerText = 'Delete';
         deleteButton.addEventListener('click', () => {
+            TransitionMinus();
             Delete(index);
         });
 
@@ -69,12 +78,12 @@ function CreateBlockNotes () {
         archiveButton.classList.add('button');
         archiveButton.innerText = 'to archive';
         archiveButton.addEventListener('click', () => {
+            TransitionMinus();
             ToArchive(index);
         } )
 
         let filter = note.note
         let foundDate = findDates(filter);
-
         divDate.innerText = note.date;
         divNotes.innerText = note.note;
         divCategory.innerText = note.category;
@@ -82,8 +91,12 @@ function CreateBlockNotes () {
         forButton.append(deleteButton, updateButton, archiveButton)
         container.append(divDate, divNotes, divCategory, divDates, forButton);
         notesContainer.appendChild(container);
+
+
     })
 }
+CreateBlockNotes();
+
 
 
 let inputData = document.getElementById('inputSelect');
@@ -97,14 +110,18 @@ function ChangeButton () {
         button.disabled = changeText;
         button.removeEventListener('click', SaveNewNote);
         button.addEventListener('click', SaveData)
+        button.addEventListener('click', TransitionPlus)
     } else if (action === 'update') {
         button.innerText = 'Save'
         button.disabled = changeText;
         button.removeEventListener('click', SaveData)
+        button.removeEventListener('click', TransitionPlus)
         button.addEventListener('click', SaveNewNote)
     }
 }
 ChangeButton();
+
+
 
 function SaveData(e) {
     try {
@@ -160,7 +177,6 @@ function Update (index) {
 
 
 
-
 function SaveNewNote (e) {
     e.preventDefault();
     let index = valueIndex;
@@ -190,14 +206,9 @@ inputData.addEventListener('input', function () {
         button.disabled = true;
     }
 })
-CreateBlockNotes();
 
 
 
-
-
-
-let arrArchive = [];
 function ToArchive(index) {
     let element = notes[index];
     arrArchive.push(element);
@@ -209,6 +220,8 @@ function ToArchive(index) {
     const archiveContainer = document.getElementById('archiveArr');
     let container = document.createElement('div');
     container.classList.add('noteDiv');
+    let title = document.createElement('h3')
+    title.innerText = 'Archived'
     let divDate = document.createElement('div');
     divDate.classList.add('date');
     let divNotes = document.createElement('div');
@@ -234,12 +247,14 @@ function ToArchive(index) {
 
     forButton.append(unzip);
     container.append(divDate, divNotes, divCategory, divDates, forButton);
-    archiveContainer.appendChild(container);
+    archiveContainer.append(container);
 
 
     Counter();
 
+
     function Unzip() {
+        TransitionPlus();
         notes.push(last);
         CreateBlockNotes();
         archiveContainer.removeChild(container);
@@ -250,6 +265,7 @@ function ToArchive(index) {
 
 
 }
+
 function Counter() {
     let {'Task': ActiveTask, 'Random Thought': RandomThought, 'Idea': ActiveIdea} = CategoryCount(notes);
     let {'Task': ArchiveTask, 'Random Thought': ArchiveThought, 'Idea': ArchiveIdea} = CategoryCount(arrArchive);
@@ -300,3 +316,19 @@ function CategoryCount(arr) {
         'Idea': ideaCount
     };
 }
+
+
+
+
+function TransitionMinus() {
+    let tes = test1.clientHeight - 45
+    console.log(tes);
+    test1.style.height = `${tes}px`;
+}
+
+function TransitionPlus() {
+    let tes = test1.clientHeight + 45
+    console.log(tes);
+    test1.style.height = `${tes}px`;
+}
+

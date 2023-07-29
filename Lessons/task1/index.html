@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./Components/Forms/stylesForm.css">
+    <link rel="stylesheet" href="./Components/Notes/stylesNote.css">
+    <link rel="stylesheet" href="./Components/Archive/stylesArchive.css">
 </head>
 <body>
 
-<div>
-    <form>
+<div class="divForm">
+    <form class="form">
+        <p>Choose category</p>
         <select id="categorySelect" name="category"></select>
         <input id="inputSelect" name="note">
         <button type="submit" id="button" disabled data-action="create" ></button>
     </form>
 </div>
-<div>
+<div class="test1">
     <div class="noteDiv">
-        <div class="date">Created</div>
-        <div class="notes">Notes</div>
-        <div class="categories">Category</div>
-        <div class="dates">Dates</div>
-        <div class="forButton"></div>
+        <div class="date1">Created</div>
+        <div class="notes1">Notes</div>
+        <div class="categories1">Category</div>
+        <div class="dates1"> Dates</div>
+        <div class="forButton1"></div>
     </div>
     <div id="notesContainer"></div>
 </div>
-<div>
+<div class="test2">
     <div class="arcInfo">
-        <div class="noteCategory">Note Category</div>
-        <div class="activeNote">Active</div>
-        <div class="archiveNote">Archived</div>
+        <div class="headerCounter">Note Category</div>
+        <div class="headerCounter">Active</div>
+        <div class="headerCounter">Archived</div>
     </div>
 
     <div class="arcInfo">
@@ -48,7 +51,10 @@
     </div>
     <div id="archiveArr"></div>
 </div>
-<script src="main.js">
-</script>
+
+<script src="./Components/Forms/Form.js"></script>
+<script src="./Components/Notes/Note.js"></script>
+<script src="./Components/Archive/Archive.js"></script>
+
 </body>
 </html>
